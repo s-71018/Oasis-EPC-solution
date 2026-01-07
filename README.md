@@ -40,9 +40,9 @@ Git
 
 bash
 
-git clone https://github.com/s-71018/Oasis-EPC-solution.git
+git clone https://github.com/s-71018/Oasis-EPC-Solutions.git
 
-cd Oasis-EPC-solution
+cd Oasis-EPC-Solutions
 
 ### Open Project in VS Code
 bash
@@ -95,15 +95,20 @@ Download symbols : AL: Download symbols
 ### Create or verify `.gitignore` contains:
 
 .alpackages/
+
 .vscode/.alcache/
+
 *.app
 
 ### Create a Feature Branch (Mandatory)
 Never work on main.
 
 bash
+
 git checkout main
+
 git pull
+
 git checkout -b feature/<feature-name> 
 
 ### Develop & Test
@@ -127,8 +132,11 @@ Before committing, ensure:
 ### Commit:
 
 bash
+
 git add .
+
 git commit -m "Meaningful commit message"
+
 git push origin feature/<feature-name>
 
 ### Create Pull Request
