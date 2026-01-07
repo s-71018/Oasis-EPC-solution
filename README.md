@@ -75,7 +75,9 @@ Sign in
 Choose your Sandbox environment
 
 This creates:
+
 app.json
+
 .vscode/launch.json 
 
 In launch.json verify:-  "startupCompany": "Oasis EPC Solutions"
