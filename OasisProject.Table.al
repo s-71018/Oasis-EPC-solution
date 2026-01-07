@@ -7,6 +7,7 @@ table 50151 "Oasis Project"
         field(1; "No."; Code[20]) { }
         field(2; "Name"; Text[100]) { }
         field(3; "Email"; Text[100]) { }
+        field(4; "Phone No."; Text[20]) { }
     }
 
     keys
