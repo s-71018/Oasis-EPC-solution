@@ -39,15 +39,20 @@ Git
 ### Clone the Repository
 
 bash
+
 git clone https://github.com/s-71018/Oasis-EPC-solution.git
+
 cd Oasis-EPC-solution
 
 ### Open Project in VS Code
 bash
+
 code .
 
 Confirm branch:
+
 bash
+
 git branch
 
 Output should show: * main
@@ -76,7 +81,9 @@ app.json
 In launch.json verify:-  "startupCompany": "Oasis EPC Solutions"
 
 **Open** the repo again using :
+
 bash
+
 code .
 
 **Copy** "app.json" and ".vscode/launch.json" files in the repo and delete the temporary folder
